@@ -66,6 +66,16 @@ app.delete('/tasks/:id', async (req, res) => {
   }
 });
 
+// const response = {};
+
+// axios.get('https://dummyjson.com/products').then(
+//   function(response){
+//     console.log(response.data.products[0]);
+//   }
+// )
+
+
+
 // start server
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
